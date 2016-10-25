@@ -4,6 +4,7 @@
   "scripts": {
     "start": "c:\\Users\\otuzgen\\AppData\\Roaming\\npm\\tsc && concurrently \"c:\\Users\\otuzgen\\AppData\\Roaming\\npm\\tsc -w\" \"c:\\Users\\otuzgen\\AppData\\Roaming\\npm\\http-server\" ",
     "start2": "tsc && concurrently \"tsc -w\" \"c:\\Users\\otuzgen\\AppData\\Roaming\\npm\\lite-server\" ",
+    "home": "tsc && concurrently \"tsc -w\" \"http-server\" ",
     "lite-server": "c:\\Users\\otuzgen\\AppData\\Roaming\\npm\\lite-server",
     "tsc": "c:\\Users\\otuzgen\\AppData\\Roaming\\npm\\tsc",
     "tsc:w": "c:\\Users\\otuzgen\\AppData\\Roaming\\npm\\tsc -w"
